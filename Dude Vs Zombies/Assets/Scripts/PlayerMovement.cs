@@ -1,36 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerMovement : MonoBehaviour
-{
-    /*
-    private float speed = 10;
-    bool jump = false;
-
-    private Rigidbody2D body;
-
-    private void Awake()
-    {
-        body = GetComponent<Rigidbody2D>();
-    }
-
-    private void Update()
-    {
-        body.velocity = new Vector2(Input.GetAxis("Horizontal") * speed, body.velocity.y);
-
-
-        if (Input.GetButtonDown("Jump"))
-        {
-            body.velocity = new Vector2(body.velocity.x, speed);
-        }
-    }
-    */
-
-    
+{    
     public CharacterController2D controller;
     public float runSpeed = 40f;
-    
+
     float horizontalMove = 0f;
     bool jump = false;
     bool crouch = false;
@@ -60,5 +37,4 @@ public class PlayerMovement : MonoBehaviour
         controller.Move(horizontalMove * Time.fixedDeltaTime, crouch, jump);
         jump = false;
     }
-    
 }

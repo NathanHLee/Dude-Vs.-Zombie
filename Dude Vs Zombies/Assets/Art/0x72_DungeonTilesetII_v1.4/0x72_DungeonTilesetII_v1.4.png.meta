@@ -112,7 +112,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -120,6 +120,90 @@ TextureImporter:
       bones: []
       spriteID: f052d6033e3ad9e4eb339bb4019feff5
       internalID: 1090236438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Med_Zombie
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae1c62d0ee83cea4e82ab77c9399e5de
+      internalID: 1292255187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big_zombie
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 205
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a91247d6c4e7da84087d9518726d3006
+      internalID: -753710359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big_ogre
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 158
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.48900652}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80cb4f70598621644872245ae9ea0fb4
+      internalID: 1645954855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flying
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 127
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb3058209ba564e418f1400c7eadb786
+      internalID: 1119810327
       vertices: []
       indices: 
       edges: []
@@ -135,7 +219,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      Big_zombie: -753710359
+      Med_Zombie: 1292255187
+      Big_ogre: 1645954855
       Zombie_0: 1090236438
+      Flying: 1119810327
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
